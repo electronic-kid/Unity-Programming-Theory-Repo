@@ -38,4 +38,10 @@ public abstract class Character
         this.Name = name;
         this.Health = maxHealth;
     }
+
+    // Public method to access health
+    public int GetHealth()
+    {
+        return Health;
+    }
 }
